@@ -39,8 +39,5 @@ contents.each do |row|
   phone_number = clean_phone_numbers(row[:homephone])
 
 
-  puts "#{phone_number}"
+  puts "#{name} #{zipcode} #{phone_number}"
 end
-
-
-#{name} #{zipcode}
